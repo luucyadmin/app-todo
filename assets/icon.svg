@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon</title>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#EDF2F4" x="0" y="0" width="512" height="512"></rect>
+        <g id="Group" transform="translate(151.000000, 139.000000) rotate(-270.000000) translate(-151.000000, -139.000000) translate(105.000000, 72.000000)" stroke="#000000" stroke-width="40">
+            <polyline id="Path-5" transform="translate(46.000000, 67.000000) rotate(-270.000000) translate(-46.000000, -67.000000) " points="-21 113 66.550226 21 113 67.6638167"></polyline>
+        </g>
+        <line x1="274" y1="139" x2="430" y2="139" id="Path-5" stroke="#000000" stroke-width="40" transform="translate(352.000000, 139.000000) rotate(-540.000000) translate(-352.000000, -139.000000) "></line>
+        <line x1="218" y1="262" x2="430" y2="262" id="Path-5" stroke="#000000" stroke-width="40" transform="translate(324.000000, 262.000000) rotate(-540.000000) translate(-324.000000, -262.000000) "></line>
+        <line x1="218" y1="385" x2="430" y2="385" id="Path-5" stroke="#000000" stroke-width="40" transform="translate(324.000000, 385.000000) rotate(-540.000000) translate(-324.000000, -385.000000) "></line>
+    </g>
+</svg>

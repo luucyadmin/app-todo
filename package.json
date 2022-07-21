@@ -1,0 +1,18 @@
+{
+	"name": "task-list",
+	"displayName": "Todo",
+	"icon": "icon.svg",
+	"internal": true,
+	"version": "1.0.0",
+	"scopes": [
+		"core",
+		"ui",
+		"data"
+	],
+	"dependencies": {
+		"luucy-types": "^10.14.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.7.4"
+	}
+}
