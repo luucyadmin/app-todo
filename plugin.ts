@@ -21,9 +21,9 @@ data.onProjectSelect.subscribe(async project => {
     
         const createButton = new ui.Button(ui.icons.plus, 'Create Task'.translate.german('Aufgabe Erstellen'), async () => {
             const task = new Task(nameTextField.value);
-
+            
             tasks.unshift(task);
-
+            
             await project.storage.organization.write('todo', tasks);
 
             const firstChild = tasksContainer.children[0];
@@ -40,16 +40,17 @@ data.onProjectSelect.subscribe(async project => {
         section.add(new ui.Separator());
 
         const renderTask = (task) => {
-            const section = new ui.Section(task.name);
-            section.createAction(ui.icons.check, 'Complete Task', async () => {
+            const checkbox = new ui.Checkbox(task.name, false);
+
+            checkbox.onValueChange.subscribe(async () => {
                 task.done = true;
         
                 await project.storage.organization.write('todo', tasks);
         
-                tasksContainer.remove(section);
+                Timer.timeout(() => checkbox.parent?.remove(checkbox), 250);
             });
-        
-            return section;
+
+            return checkbox;
         };
 
         const tasksContainer = new ui.Container();
