@@ -43,6 +43,10 @@ data.onProjectSelect.subscribe(async project => {
             const checkbox = new ui.Checkbox(task.name, false);
 
             checkbox.onValueChange.subscribe(async () => {
+                if (task.done) {
+                    return;
+                }
+
                 task.done = true;
         
                 await project.storage.organization.write('todo', tasks);
