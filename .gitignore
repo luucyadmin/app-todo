@@ -1,4 +1,16 @@
-dist.lps
 node_modules
 .luucy
+dist.lps
 bundles
+
+# Editor directories and files
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.env
+*.lpb
+server/.env
