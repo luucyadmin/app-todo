@@ -1,4 +1,5 @@
 import { Task } from "./task";
+import i18n from './i18n';
 
 const section = ui.createProjectPanelSection();
 
@@ -16,10 +17,10 @@ data.onProjectSelect.subscribe(async project => {
             return;
         }
     
-        const nameTextField = new ui.TextField('', '', 'Name...');
+        const nameTextField = new ui.TextField('', '', i18n.Name());
         section.add(nameTextField);
     
-        const createButton = new ui.Button(ui.icons.plus, 'Create Task'.translate.german('Aufgabe Erstellen'), async () => {
+        const createButton = new ui.Button(ui.icons.plus, i18n.Create_Task(), async () => {
             const task = new Task(nameTextField.value);
             
             tasks.unshift(task);

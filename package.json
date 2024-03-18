@@ -1,9 +1,10 @@
 {
-	"name": "task-list",
-	"displayName": "Todo",
+	"name": "todo",
+	"displayName": "To-do",
 	"icon": "icon.svg",
 	"internal": true,
-	"version": "1.0.1",
+	"productId": 242,
+	"version": "1.1.0",
 	"scopes": [
 		"core",
 		"ui",
