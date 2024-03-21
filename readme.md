@@ -1,6 +1,9 @@
- # Todo Plugin
+ # To-do Plugin
 
-This repository demonstrates how to use Project storage to create a simple TO-DO list as a LUUCY plugin..
+This plugin demonstrates how use Project storage to create a simple TO-DO list as a LUUCY plugin.
+
+## Requirements
+- [Node JS](https://nodejs.org/en/)
 
 ## Instructions
 - clone this repository
