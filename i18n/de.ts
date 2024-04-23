@@ -1,5 +1,5 @@
 export default {
-  Loading: 'Loading',
-  Create_Task: 'Create Task',
+  Loading: "Lädt",
+  Create_Task: "Aufgabe erstellen",
   Name: 'Name...'
 };
