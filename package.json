@@ -14,6 +14,6 @@
 		"luucy-types": "git+ssh://git@gitlab.com:luucy/sdk/luucy-types.git#next/3.7"
 	},
 	"devDependencies": {
-		"typescript": "^4.7.4"
+		"typescript": "^5.5.4"
 	}
 }
