@@ -34,6 +34,8 @@ data.onProjectSelect.subscribe(async project => {
             } else {
                 tasksContainer.add(renderTask(task));
             }
+
+            nameTextField.value = '';
         });
 
         section.add(createButton);
